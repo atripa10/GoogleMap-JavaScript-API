@@ -1,0 +1,22 @@
+<html>
+
+<body>
+	First Number: <input type="text" id ="num1" name="num1"><br>
+	Second Number: <input type="text" id ="num2" name="num2"><br>
+	Result: <input type="text" id="res" name="res"><br>
+  
+<button onclick="myFunction()">Sum</button>
+
+<script type="text/javascript">
+	function myFunction() {
+		var first = parseInt(document.getElementById("num1").value);
+		var second = parseInt(document.getElementById("num2").value);
+		var result = first + second;
+		document.getElementById("res").value=result;
+	}
+</script>
+
+</body>
+
+
+</html>
